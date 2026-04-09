@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 480px;
+    margin: 0 auto;
+    font-family: Inter, sans-serif;
+    background-color: #F8FAFC;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
