@@ -1,10 +1,14 @@
 export default function PrimesCalc() {
     return (
-        <div className="output-calc">
-            <span>Nº Primos encontrados:</span>
-            <strong>123</strong>
-            <span>Tempo de cáculo:</span>
-            <strong>0.0012 segundos</strong>
-        </div>
+        <section className="calc-output-section">
+            <div className="total-prime-found">
+                <span>Nº Primos encontrados:</span>
+                <strong>123</strong>
+            </div>
+            <div className="total-prime-calc">
+                <span>Tempo de cáculo:</span>
+                <strong>0.0012 sec</strong>
+            </div>
+        </section>
     );
 }
