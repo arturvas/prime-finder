@@ -1,4 +1,4 @@
-export default function PrimesCalc() {
+export default function PrimesCalc({ performanceInfo }) {
     return (
         <section className="calc-output-section">
             <div className="total-prime-found">
@@ -7,7 +7,7 @@ export default function PrimesCalc() {
             </div>
             <div className="total-prime-calc">
                 <span>Tempo de cáculo:</span>
-                <strong>0.0012 sec</strong>
+                <strong>{performanceInfo}</strong>
             </div>
         </section>
     );

@@ -1,8 +1,8 @@
-export default function PrimesList() {
+export default function PrimesList({ numPrimos }) {
     return (
         <section className="container-prime-list">
             <span>Prime Numbers: </span>
-            <strong>2 4 6 7</strong>
+            <strong>{numPrimos.join(', ')}</strong>
         </section>
     );
 }
